@@ -1,0 +1,1 @@
+This repository will house all the class notes and classwork on regression.
