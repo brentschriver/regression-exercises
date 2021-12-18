@@ -315,7 +315,7 @@ def model_evaluation(X_train_scaled, X_validate_scaled, y_train, y_validate):
     rmse_validate = mean_squared_error(y_validate.tax_value, y_validate.tax_value_pred_lars) ** (1/2)
 
     metric_df = metric_df.append({
-    'model': 'lasso_alpha0.1', 
+    'model': 'lasso_power1', 
     'RMSE_train': rmse_train,
     'RMSE_validate': rmse_validate,
     }, ignore_index=True)
